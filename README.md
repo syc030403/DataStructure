@@ -20,7 +20,7 @@ void error(char* message) {						// 오류가 났을때 문자열을 받아 받�
 	exit(1);
 }
 
-void intit_queue(QueueType* q) {					// 큐를 -1로 초기화 하는 함수
+void init_queue(QueueType* q) {						// 큐를 -1로 초기화 하는 함수
 	q->rear = -1;
 	q->front = -1;
 }
